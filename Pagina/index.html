@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Video Reveal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+
+    <!-- Texto con blur -->
+    <div class="fondo-con-frase">
+      <img src="sisi.png" class="icono arriba-izq" />
+      <img src="jesus.png" class="icono arriba-centro" />
+      <img src="maria.png" class="icono arriba-der" />
+      <div class="frase">
+        "When I look back on my past and think how much time I wasted on nothing, how much time has been lost in futilities, errors, laziness, incapacity to live; how little I appreciated it, how many times I sinned against my heart and soul—then my heart bleeds. Life is a gift, life is happiness, every minute can be an eternity of happiness." ~ Fyodor Dostoevsky
+      </div>
+      <a href="aboutme.html" class="about-btn">Know me</a>
+
+      
+    </div>
+
+    <!-- Linterna (máscara dinámica) -->
+    <div id="mask" class="reveal-mask"></div>
+
+    <!-- Video -->
+    <video id="video">
+      <source src="Clipwish.mp4" type="video/mp4" />
+    </video>
+
+    <!-- Pantalla de inicio -->
+    <div id="startScreen" class="start-screen">
+      <img src="yo.png" alt="Yo" class="foto-ini"/>
+      <button id="startBtn">Gabriel Andres Rodriguez Yepes</button>
+    </div>
+
+    <!-- Botón Skip -->
+    <button id="skipBtn">Skip</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
